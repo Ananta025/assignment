@@ -9,7 +9,7 @@ export default function EventCarousel() {
     { id: 4, label: "SPA" },
   ];
 
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(1);
 
   const handleNext = () => {
     setActive((prev) => (prev + 1) % slides.length);
@@ -18,7 +18,7 @@ export default function EventCarousel() {
   return (
     <section className="w-full bg-[#f6f4e9] pb-20 pt-5">
       <div className="w-full overflow-x-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-        <div className="flex items-start gap-4 w-max">
+        <div className="flex items-start gap-4 w-max -ml-72">
           {slides.map((slide, index) => {
           const isActive = index === active;
           return (
@@ -26,8 +26,8 @@ export default function EventCarousel() {
               key={slide.id}
               className={`relative transition-all duration-500 rounded-md overflow-hidden cursor-pointer ${
                 isActive
-                  ? "bg-gray-300 w-[636px] h-[322px]"
-                  : "bg-gray-600 w-[545px] h-[268px] opacity-80"
+                  ? "bg-gray-300 w-[600px] h-[322px]"
+                  : "bg-gray-600 w-[510px] h-[268px] opacity-80"
               }`}
               onClick={() => setActive(index)}
             >

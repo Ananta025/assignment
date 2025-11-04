@@ -90,13 +90,13 @@ export default function AboutSection() {
                     <div
                       key={slide.id}
                       onClick={() => setCurrentSlide(index)}
-                      className={`relative transition-all duration-500 rounded-sm overflow-hidden cursor-pointer flex-shrink-0 ${
+                      className={`relative transition-all duration-500 rounded-sm overflow-hidden cursor-pointer shrink-0 ${
                         isActive
                           ? 'bg-gray-300 h-[322px]'
                           : 'bg-gray-600 h-[268px] opacity-80'
                       }`}
                       style={{
-                        width: isActive ? '636px' : '545px'
+                        width: isActive ? '600px' : '510px'
                       }}
                     >
                       {/* Only active image has bottom text bar */}

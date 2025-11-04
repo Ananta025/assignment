@@ -23,9 +23,9 @@ export default function Footer() {
                   <line x1="12" y1="28" x2="6" y2="34" stroke="white" strokeWidth="2"/>
                 </svg>
               </div>
-              <span className="text-2xl font-serif tracking-wider">LUXORT</span>
+              <span className="text-4xl tracking-tighter font-['Cormorant_Garamond']">LUXORT</span>
             </div>
-            <p className="text-sm text-gray-300 leading-relaxed">
+            <p className="text-[16px] text-gray-200 leading-relaxed font-['Satoshi-Light']">
               Luxort combines timeless elegance with modern luxury, offering unparalleled comfort and unforgettable experiences
             </p>
           </div>
@@ -34,8 +34,8 @@ export default function Footer() {
           <div className="flex gap-32">
             {/* Quick Links */}
             <div>
-              <h3 className="text-base mb-6 font-light">Quick Links</h3>
-              <ul className="space-y-3 text-sm text-gray-300">
+              <h3 className="text-base mb-6 font-light font-['Satoshi-Light']">Quick Links</h3>
+              <ul className="space-y-3 text-sm text-gray-300 font-['Satoshi-Light']">
                 <li><a href="#" className="hover:text-white transition-colors">Home</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Events</a></li>
@@ -46,8 +46,8 @@ export default function Footer() {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-base mb-6 font-light">Social Media</h3>
-              <ul className="space-y-3 text-sm text-gray-300">
+              <h3 className="text-base mb-6 font-light font-['Satoshi-Light']">Social Media</h3>
+              <ul className="space-y-3 text-sm text-gray-300 font-['Satoshi-Light']">
                 <li><a href="#" className="hover:text-white transition-colors">X</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-6 border-t border-gray-700 flex justify-between items-center text-sm text-gray-400">
+        <div className="pt-6 border-t font-['Satoshi-Light'] border-gray-700 flex justify-between items-center text-sm text-gray-400">
           <p>© 2025 Luxort, All Right Reserved</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
