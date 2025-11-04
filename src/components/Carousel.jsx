@@ -26,8 +26,8 @@ export default function EventCarousel() {
               key={slide.id}
               className={`relative transition-all duration-500 rounded-md overflow-hidden cursor-pointer ${
                 isActive
-                  ? "bg-gray-300 w-[600px] h-[322px]"
-                  : "bg-gray-600 w-[510px] h-[268px] opacity-80"
+                  ? "bg-gray-300 w-[500px] h-[322px]"
+                  : "bg-gray-600 w-[420px] h-[268px] opacity-80"
               }`}
               onClick={() => setActive(index)}
             >

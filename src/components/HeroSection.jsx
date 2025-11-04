@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="max-w-9xl mx-auto px-20 pt-25">
         {/* Header Content */}
         <div className="mb-16 flex justify-between ">
-          <h1 className="text-9xl font-['Cormorant_Garamond'] font-light tracking-tighter leading-none">
+          <h1 className="text-[120px] font-['Cormorant_Garamond'] font-light tracking-tighter leading-none">
             WELCOME TO<br />LUXORT
           </h1>
           

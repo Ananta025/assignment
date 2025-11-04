@@ -96,7 +96,7 @@ export default function AboutSection() {
                           : 'bg-gray-600 h-[268px] opacity-80'
                       }`}
                       style={{
-                        width: isActive ? '600px' : '510px'
+                        width: isActive ? '500px' : '420px'
                       }}
                     >
                       {/* Only active image has bottom text bar */}

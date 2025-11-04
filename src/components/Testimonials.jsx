@@ -60,15 +60,15 @@ export default function TestimonialsSection() {
         {/* Right Side - Staggered Testimonials */}
         <div className="lg:w-3/5 relative overflow-hidden">
           {/* Scrollable area */}
-          <div className="h-[550px] overflow-y-scroll flex gap-6 pr-3 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          <div className="h-[550px] overflow-y-scroll flex gap-4 pr-3 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {/* Left Column */}
-            <div className="flex flex-col gap-5 mt-10">
+            <div className="flex flex-col gap-5 mt-10 flex-1">
               {testimonials
                 .filter((_, i) => i % 2 === 0)
                 .map((item, i) => (
                   <div
                     key={i}
-                    className="bg-white rounded-md shadow-sm p-5 flex flex-col gap-3 transition w-[340px]"
+                    className="bg-white rounded-md shadow-sm p-5 flex flex-col gap-3 transition w-full"
                   >
                     <div className="flex justify-between items-center">
                       <div className="flex items-center gap-3">
@@ -90,13 +90,13 @@ export default function TestimonialsSection() {
             </div>
 
             {/* Right Column (offset vertically) */}
-            <div className="flex flex-col gap-5 -mt-16">
+            <div className="flex flex-col gap-5 -mt-16 flex-1">
               {testimonials
                 .filter((_, i) => i % 2 !== 0)
                 .map((item, i) => (
                   <div
                     key={i}
-                    className="bg-white rounded-md shadow-sm p-5 flex flex-col gap-3 transition w-[340px]"
+                    className="bg-white rounded-md shadow-sm p-5 flex flex-col gap-3 transition w-full"
                   >
                     <div className="flex justify-between items-center">
                       <div className="flex items-center gap-3">
