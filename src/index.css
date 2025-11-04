@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f6f4e9;
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("/Satoshi-Light.otf") format("opentype");
+}
